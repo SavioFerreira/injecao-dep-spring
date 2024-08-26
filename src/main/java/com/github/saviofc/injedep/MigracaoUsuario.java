@@ -1,4 +1,4 @@
-package com.github.saviofc.injedep.manual;
+package com.github.saviofc.injedep;
 
 import java.util.List;
 
