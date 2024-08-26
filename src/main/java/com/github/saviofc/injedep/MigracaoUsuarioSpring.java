@@ -1,13 +1,16 @@
 package com.github.saviofc.injedep;
 
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 
-class MigracaoUsuario {
+@Component
+class MigracaoUsuarioSpring {
 
     Reader<User> reader;
     Writer<User> writer;
 
-    public MigracaoUsuario(Reader<User> reader, Writer<User> writer) {
+    public MigracaoUsuarioSpring(Reader<User> reader, Writer<User> writer) {
         this.reader = reader;
         this.writer = writer;
     }
